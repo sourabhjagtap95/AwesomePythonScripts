@@ -14,4 +14,4 @@ python:
 before_install:
     - pip install pytest pytest-cov
 script:
-    - py.test
+    - python $TRAVIS_PULL_REQUEST
