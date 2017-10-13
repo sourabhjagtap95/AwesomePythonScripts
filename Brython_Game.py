@@ -4,7 +4,7 @@ if __name__ == '__main__':
     if webbrowser.open_new(url):
         webbrowser.open_new(url)
     else:
-        print("Vous devez executer le ficher index.html")
+        print("You need to execute file index.html")
         os.system("Pause")
     sys.exit()
 
@@ -20,10 +20,6 @@ class Game:
 
 class SET:
     WINDOW_SIZE = (800, 570)
-    WINDOW_TITLE = "GEEK : TEST"
-    SPRITES_PATH = "ressources/sprites/"
-    SOUND_PATH = "ressources/sound/"
-    MAP_PATH = "ressources/map/"
     FPS = 60
 
 class Rect:
@@ -207,7 +203,7 @@ class Player:
                     self.rect.top = platform.bottom
                 self.change_y = 0                
 
-        # Teste si le player touche les bords du niveau
+        # If player touch the border
         if self.rect.right > SET.WINDOW_SIZE[0]:
             self.rect.right = SET.WINDOW_SIZE[0]
         if self.rect.left < 0:
@@ -303,10 +299,10 @@ def main(i):
     Game.context = Game.canvas.getContext("2d")
 
     if not Game.canvas:
-        alert("Impossible de rÃ©cuperer le canvas !")
+        alert("Can't access to the canvas")
     Game.context = Game.canvas.getContext('2d')
     if not Game.context:
-        alert("Impossible de rÃ©cupÃ©rer le context du canvas")
+        alert("Can't access to the canvas")
     lvl = Level()
     player = Player(lvl)
     doc.body.addEventListener("keydown", player.player_event)
