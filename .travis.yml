@@ -11,7 +11,5 @@ python:
   - "3.6-dev" # 3.6 development branch
   - "3.7-dev" # 3.7 development branch
   - "nightly"
-before_install:
-    - pip install pytest pytest-cov
 script:
     - python $TRAVIS_PULL_REQUEST
