@@ -1,3 +1,7 @@
+'''
+Uset the Weather Underground and Twilio APIs
+to text your honey the forecast.
+'''
 import json
 
 import requests
