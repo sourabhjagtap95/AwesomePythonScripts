@@ -12,4 +12,4 @@ python:
   - "3.7-dev" # 3.7 development branch
   - "nightly"
 script:
-    - python $TRAVIS_PULL_REQUEST
+    - pytest
