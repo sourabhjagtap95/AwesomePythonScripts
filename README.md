@@ -14,3 +14,5 @@ This is a place where you can contribute as much as you can. You can contribute 
 - Star this repository
 - Wait for Pull Request to merge
 - Celebrate - you've done your first pull request!
+# Some Awesome projects
+- https://github.com/kaushikthedeveloper/GeeksforGeeks-python
