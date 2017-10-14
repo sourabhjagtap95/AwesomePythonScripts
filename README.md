@@ -2,6 +2,9 @@
 ## Description
 Welcome Githubers !!
 This is a place where you can contribute as much as you can. You can contribute by giving your scripts written in python which you think are awesome.
+It is very good for beguinners as well as intermediators.
+Here you can send all your scripts written in python .
+
 
 
 ## Instructions
